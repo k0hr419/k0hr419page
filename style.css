@@ -1,0 +1,26 @@
+header {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.post {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    width: 400px;
+    height: 400px;
+    background-color: darkgray;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url("http://4kwallpapers.com/images/walls/thumbs_2t/4044.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
