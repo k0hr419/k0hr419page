@@ -20,7 +20,5 @@ header {
 }
 
 body {
-    background-image: url("http://4kwallpapers.com/images/walls/thumbs_2t/4044.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
 }
