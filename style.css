@@ -1,10 +1,82 @@
 body {
-    background-color: black;
+    margin: 0;
 }
 
-.main_title {
-    color: white;
-    text-shadow: 0 0 20px lightyellow;
+header {
+    border-bottom: 1px solid black;
+}
+
+ul {
+    padding: 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.paragraph {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.paragraph p {
+    margin: 5px 0 5px 0;
+}
+
+.title {
+    font-size: 50px;
+    margin: 10px 0 5px 0;
+    font-family: 'Noto Serif', serif;
+}
+
+#menutitle {
+    font-size: 60px;
     text-align: center;
-    margin: auto;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+button {
+    display: inline-block;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
