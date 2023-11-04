@@ -1,82 +1,33 @@
 body {
+    background: #1f1f1f;
+}
+
+.profile-image {
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 50%;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(red, yellow) border-box;
+    border: 5px solid transparent;
+    box-shadow: 0 0 10px yellow;
+}
+
+.div-profile {
+    text-align: center;
+    background-color: #292828;
+    width: auto;
+    height: 300px;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+.name {
     margin: 0;
-}
-
-header {
-    border-bottom: 1px solid black;
-}
-
-ul {
-    padding: 0;
-}
-
-header ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    font-size: 25px;
-}
-
-.paragraph {
-    padding: 20px;
-    font-size: 20px;
-    font-family: 'Nanum Myeongjo', serif;
-}
-
-.paragraph p {
-    margin: 5px 0 5px 0;
-}
-
-.title {
-    font-size: 50px;
-    margin: 10px 0 5px 0;
-    font-family: 'Noto Serif', serif;
-}
-
-#menutitle {
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Nanum Myeongjo', serif;
-}
-
-button {
-    display: inline-block;
-}
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 140px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    bottom: 150%;
-    left: 50%;
-    margin-left: -75px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 0 0 30px yellow;
+    margin: 10px 0 10px 0;
 }
