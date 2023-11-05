@@ -1,5 +1,7 @@
 body {
     background: #1f1f1f;
+    color: white;
+    margin: 0px;
 }
 
 .profile-image {
@@ -9,25 +11,84 @@ body {
     background: linear-gradient(white, white) padding-box,
                 linear-gradient(red, yellow) border-box;
     border: 5px solid transparent;
-    box-shadow: 0 0 10px yellow;
 }
 
 .div-profile {
     text-align: center;
+    background-color: #1f1f1f;
+    vertical-align: middle;
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+.div-title {
     background-color: #292828;
     width: auto;
-    height: 300px;
-
-    margin: auto;
+    height: 350px;
+    width: auto;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .name {
-    margin: 0;
-    background: -webkit-linear-gradient(red, yellow);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-family: Helvetica, sans-serif;
-    text-shadow: 0 0 30px yellow;
     margin: 10px 0 10px 0;
+}
+
+.div-card {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    width: 1000px;
+    height: auto;
+    border-radius: 15px;
+    background: #292828;
+    font-family: Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+.card-title {
+    margin: 0;
+    padding: 0 20px 5px 20px;
+    font-weight: bold;
+    font-size: 35px;
+    border-bottom: 2px white solid;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.div-card-work {
+    text-align: left;
+    border-radius: 15px;
+    height: 350px;
+    width: 250px;
+    background-color: #1f1f1f;
+    font-family: Helvetica, sans-serif;
+    margin: 40px 15px 30px 15px;
+}
+
+.div-card-work img {
+    width: 250px;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+.work-title {
+    padding-bottom: 5px;
+    margin: 10px 10px 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px gray solid;
+}
+
+.work-write {
+    margin-left: 15px;
 }
