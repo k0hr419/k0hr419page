@@ -81,14 +81,42 @@ ul {
     border-radius: 15px 15px 0 0;
 }
 
+.div-card-work img:hover {
+    filter: brightness(50%);
+}
+
 .work-title {
     padding-bottom: 5px;
     margin: 10px 10px 0 15px;
     font-weight: bold;
     font-size: 20px;
     border-bottom: 2px gray solid;
+    display: inline-block;
 }
 
 .work-write {
     margin-left: 15px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+}
+
+.image-link {
+    position: absolute;
 }

@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "테스크의 포트폴리오",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k0hr419/tasqpage.git"
+  },
+  "author": "harang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k0hr419/tasqpage/issues"
+  },
+  "homepage": "https://github.com/k0hr419/tasqpage#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0"
+  }
+}
