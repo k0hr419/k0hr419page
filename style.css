@@ -56,11 +56,13 @@ body {
     font-weight: bold;
     font-size: 35px;
     border-bottom: 2px white solid;
+    display: inline-block;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
     padding: 0;
     margin: 0;
 }
@@ -82,7 +84,7 @@ ul {
 }
 
 .div-card-work img:hover {
-    filter: brightness(50%);
+    filter: brightness(70%);
 }
 
 .work-title {
