@@ -118,3 +118,8 @@ a:hover {
 a:active {
     color: white;
 }
+
+.navigate {
+    display: flex;
+    justify-content: space-around;
+}
